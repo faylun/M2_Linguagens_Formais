@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<jpackage-state version="25.0.3" platform="windows">
+  <app-version>1.0</app-version>
+  <main-launcher>M2_Linguagens_Formais</main-launcher>
+  <main-class>br.com.m2_linguagens_formais.Main</main-class></jpackage-state>
