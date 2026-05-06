@@ -8,7 +8,38 @@ Este programa implementa um **Autômato Finito Determinístico (AFD) mínimo** p
 ---
 
 ## Como rodar?
+### Pré-requisitos
+- Instalar o **Java Development Kit ( JDK )** na versão 25.
 
+### Execução
+
+#### Windows
+- Após a instalação do JDK, basta dar dois clicks no arquivo "**m2_executavel-windows.bat**":
+
+```bash
+m2_executavel-windows.bat
+```
+
+#### Linux / MacOS
+
+- Após a instalação do JDK, basta dar dois clicks no arquivo "**m2-executavel-linux-mac.sh**":
+
+```bash
+m2-executavel-linux-mac.sh
+```
+
+Ou rodar no terminal:
+
+```bash
+./m2-executavel-linux-mac.sh
+```
+
+> Caso não funcione, abra o terminal para dar permissão de execução ao arquivo e, após isso, executar o mesmo:
+
+```bash
+chmod +x m2-executavel-linux-mac.sh
+./m2-executavel-linux-mac.sh
+```
 
 ---
 
@@ -22,6 +53,7 @@ onde:
 - **n** é um número par (n ≥ 0, ou seja, n ∈ {0, 2, 4, ...})
 - **m + p** é ímpar (m ≥ 0, p ≥ 0, m + p ≥ 1)
 - A palavra deve ter pelo menos um símbolo (w ∈ Σ⁺)
+
 ### Alfabeto
 
 $$\Sigma = \{a, b, c, d, e\}$$
@@ -73,10 +105,4 @@ Q9   9  [  10,  10,  10,  10,    1,  10 ]
 ERRO 10 [  10,  10,  10,  10,   10,  10 ]
 ```
 
-### Vetor de Estados Finais
-
-```
-
-```
- 
 ---
